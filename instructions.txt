@@ -1,0 +1,9 @@
+1.Specify the rerquired values in the main function of the invisibility_cloak.py file.
+2.The process works by first recording some boundary values for the color to be identified.This is done by tweaking the min and max hsv sliders provided.The 
+area within the selected range will be blackened.Tweak the sliders till the object to be recognized is completely blackened.Then press esc to save and exit.
+3.Then the background image will be recorded.Webcam will open after a timer and record the background image.Move out of the frame at that time.Webcam closes
+automatically and saves the background file.
+4.Steps 2 and 3 need to be done only once.After the required files have been recorded successfully , the corresponding code lines can be commented.
+5.If background image has changed then new background has to be recorded again.
+6.After the background and color boundaries have been recorded successfully , run the file after commenting the above said lines.The color within the specified 
+color range will be replaced by the background image.
